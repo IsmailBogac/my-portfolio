@@ -28,7 +28,7 @@ export default function Work() {
     <>
       <div className="page container" id="work">
         <h2 className="title custom-border">Work</h2>
-        <div className="row mb-4 my-5">
+        <div className="row projects mb-4 my-5">
           {projects.map((project) => (
             <div className="project " key={project.id}>
               <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -36,7 +36,6 @@ export default function Work() {
                   className=" img-fluid rounded shadow-sm"
                   src={project.img}
                   alt={project.name}
-                  // style={{ width: "350px" }}
                 />
               </a>
             </div>
