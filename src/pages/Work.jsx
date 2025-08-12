@@ -22,11 +22,17 @@ export default function Work() {
       link: "https://music-player-amber-psi.vercel.app/",
       img: "img/music-player.jpg",
     },
+    {
+      id:4,
+      name: "Blog App",
+      link: "https://blog-app-dhqp.vercel.app/",
+      img: "img/blog.jpg",
+    },
   ]);
 
   return (
     <>
-      <div className="page container" id="work">
+      <div className="page container h-50" id="work">
         <h2 className="title custom-border">Work</h2>
         <div className="row projects mb-4 my-5">
           {projects.map((project) => (
