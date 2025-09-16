@@ -43,7 +43,7 @@ export default function Home() {
             <img
               src="../img/homeImg.jpg"
               alt="home-img"
-              className="img-fluid w-75 w-md-100"
+              className="img-fluid w-100 mx-5"
               style={{ maxWidth: "450px", borderRadius: "12px" }}
             />
           </div>
