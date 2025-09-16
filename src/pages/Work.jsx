@@ -5,35 +5,29 @@ export default function Work() {
   useScrollReveal(".container");
   const [projects] = useState([
     {
-      id:1,
+      id: 1,
       name: "Weather app",
       link: "https://weather-app-sigma-jade-vob6n6uihj.vercel.app/",
       img: "img/weather.jpg",
     },
     {
-      id:2,
+      id: 2,
       name: "Todo list",
       link: "https://todo-listt-seven.vercel.app/",
       img: "img/todo-list.jpg",
     },
     {
-      id:3,
+      id: 3,
       name: "Music player",
       link: "https://music-player-amber-psi.vercel.app/",
       img: "img/music-player.jpg",
-    },
-    {
-      id:4,
-      name: "Blog App",
-      link: "https://blog-app-dhqp.vercel.app/",
-      img: "img/blog.jpg",
     },
   ]);
 
   return (
     <>
-      <div className="page container h-50" id="work">
-        <h2 className="title custom-border">Work</h2>
+      <h2 className="title custom-border">Work</h2>
+      <div className="page container" id="work">
         <div className="row projects mb-4 my-5">
           {projects.map((project) => (
             <div className="project " key={project.id}>

@@ -5,8 +5,8 @@ export default function About() {
   
   return (
     <>
-      <div className="page container" id="about">
         <h2 className="title custom-border">About</h2>
+      <div className="page container" id="about">
         <div className="row d-flex flex-column flex-md-row   align-items-center ">
           <div className="col-md-6 mt-5">
             <img src="./img/person.jpg" alt="" style={{ width: "500px" }} />

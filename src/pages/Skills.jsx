@@ -2,9 +2,8 @@ import { useState } from "react";
 import useScrollReveal from "../hooks/useScrollReveal";
 
 export default function Skills() {
-    useScrollReveal(".container")
+  useScrollReveal(".container");
 
-  
   const [logos] = useState([
     { src: "/logos/html.svg", name: "HTML" },
     { src: "/logos/css.svg", name: "Css" },
@@ -13,11 +12,12 @@ export default function Skills() {
     { src: "/logos/rreact.svg", name: "React" },
     { src: "/logos/firebase.svg", name: "Firebase" },
     { src: "/logos/git.svg", name: "Git" },
+    { src: "/logos/mongodb.svg", name: "MongoDB" },
   ]);
   return (
     <>
+      <h2 className="title custom-border">Skills</h2>
       <div className="page container" id="skills">
-        <h2 className="title custom-border">Skills</h2>
         <div className="row d-flex align-items-center ">
           <div className="col-md-6  mt-5">
             <h2>My Skills and Tools</h2>
