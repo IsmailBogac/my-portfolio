@@ -22,6 +22,12 @@ export default function Work() {
       link: "https://music-player-amber-psi.vercel.app/",
       img: "img/music-player.jpg",
     },
+    {
+      id: 4,
+      name: "E - Commerce",
+      link: "https://e-commerce-client-mu-snowy.vercel.app/",
+      img: "img/Ecommerce.jpg",
+    },
   ]);
 
   return (
@@ -33,7 +39,7 @@ export default function Work() {
             <div className="project " key={project.id}>
               <a href={project.link} target="_blank" rel="noopener noreferrer">
                 <img
-                  className=" img-fluid rounded shadow-sm"
+                  className="  rounded shadow-sm"
                   src={project.img}
                   alt={project.name}
                 />
