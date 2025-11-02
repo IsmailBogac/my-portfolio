@@ -28,6 +28,12 @@ export default function Work() {
       link: "https://e-commerce-client-mu-snowy.vercel.app/",
       img: "img/Ecommerce.jpg",
     },
+    {
+      id: 5,
+      name: "Currency Project",
+      link: "https://currency-project-amber.vercel.app/",
+      img: "img/currency.jpg",
+    },
   ]);
 
   return (
